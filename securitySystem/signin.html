@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
 
@@ -36,40 +36,42 @@
 
 </head>
 
-<body style="min-height: 100%;background-image: url('img/bac.png');  background-repeat: no-repeat;background-position:fixed;background-size: 100%">
+<body style="min-height: 100%;background-color:#002718;">
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <h1 class="text-center overallSituationFontsColor login-tit">用户注册登录系统</h1>
-            <div class="login-panel panel panel-default admin" style="">
-                <!-- <div class="panel-heading">
-                     <h3 class="panel-title">Please Sign In</h3>
-                 </div>-->
+        <div class="col-md-12">
+            <div class="tit text-center">
+
+                <h1 class="text-center  login-tit tit-fonCor">营区互联网安防系统 <span class="overallSituationFontsColor">用户注册管理登录</span>
+                </h1>
+
+            </div>
+            <div class="login-panel panel panel-default admin col-md-6 col-md-offset-3" style="">
 
 
                 <div class="panel-body contentBox">
                     <form role="form">
 
-
-
                         <fieldset>
 
-
                             <div class="form-group input-group admin-input-d">
-                                <span class="input-group-addon admin-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input type="text" class="cor admin-input use" placeholder="用户名">
+                                <span class="input-group-addon admin-addon"><i
+                                        class="glyphicon glyphicon-user"></i></span>
+                                <input type="text" class="cor admin-input use" placeholder="请输入账号">
                             </div>
 
                             <div class="form-group input-group admin-input-d">
-                                <span class="input-group-addon admin-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                <input type="password" class="cor admin-input use" placeholder="密码">
+                                <span class="input-group-addon admin-addon"><i
+                                        class="glyphicon glyphicon-lock"></i></span>
+                                <input type="password" class="cor admin-input use" placeholder="请输入密码">
                             </div>
 
 
                             <div class="form-group input-group admin-input-d">
 
-                                <input id="inputCode" type="text" class="cor admin-input admin-vc" placeholder="请输入验证码"/>
+                                <input id="inputCode" type="text" class="cor admin-input admin-vc"
+                                       placeholder="请输入验证码"/>
 
                                 <span id="code" class="mycode"></span>
                                 <!--<input type="button" value="提交" id="submit"/>-->
@@ -77,14 +79,41 @@
 
                         </fieldset>
                     </form>
+
                 </div>
 
             </div>
-            <p class="text-right">
-                <a class="TKey" href="Tkey.html">T-Key登录&nbsp;>></a>
-            </p>
 
-            <a href="##" class="btn btn-lg col-md-8 col-md-offset-2 login-In" id="mycode">登录</a>
+            <div class="col-md-6 col-md-offset-3">
+                <p id="TKey-box" class="text-right">
+                    <span class="TKey" id="TKey">T-Key登录&nbsp;>></span>
+                </p>
+
+                <br>
+            </div>
+            <!-- TKey -->
+            <div class="col-md-6 col-md-offset-3 admin admin-TKey" id="admin-TKey">
+
+                <div class="form-group input-group admin-input-d text-center tk-tit">
+                    <span class="TKey-loginL">
+                        <img src="img/tklo.png" alt="T-Key快速登录">
+                    </span>
+                    &nbsp;
+                    T-Key快速登录
+                </div>
+                <div class="form-group input-group admin-input-d">
+                                <span class="input-group-addon admin-addon"><i
+                                        class="glyphicon glyphicon-lock"></i></span>
+                    <input type="password" class="cor admin-input use" placeholder="请输入密码">
+                </div>
+            </div>
+
+
+            <div class="col-md-8 col-md-offset-2">
+                <a href="##" class="btn btn-lg col-md-4 col-md-offset-4 login-In" id="mycode">登录</a>
+            </div>
+
+
         </div>
     </div>
 </div>
@@ -101,8 +130,17 @@
 <!-- Custom Theme JavaScript -->
 <script src="../dist/js/sb-admin-2.js"></script>
 
+<script type="text/javascript">
+    window.onload=function(){
+        var tKClick=document.getElementById("TKey"),tKBox=document.getElementById("TKey-box"),TKeyLogin=document.getElementById("admin-TKey");
+        tKClick.onclick=function(){
+            tKBox.style.display="none";
+            TKeyLogin.style.display="block";
+        }
+    }
+</script>
 
-
+<!-- verificationCode -->
 <script src="js/verificationCode.js"></script>
 <script>
     var inp = document.getElementById('inputCode');
@@ -120,14 +158,14 @@
             var x = num % num2;
             if (x != 0) {
                 num -= x;
-                if(num==0){
+                if (num == 0) {
                     var temp = num;
                     num2 = num;
                     num = temp;
                 }
             }
         }
-        if(num==0&&num==0){
+        if (num == 0 && num == 0) {
             continue;
         }
         var str = num + c[num3] + num2;
@@ -156,7 +194,7 @@
         validateFn: function (result, code) {//验证回调函数
             if (result) {
                 console.log('验证成功');
-                window.location.href="login.html";
+                window.location.href = "login.html";
             } else {
                 if (this.opt.question) {
                     alert('验证失败:' + code.answer);

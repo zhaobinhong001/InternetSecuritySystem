@@ -1,27 +1,74 @@
+body {
+    font: 16px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
 .overallSituationFontsColor {
     color: #ffd532;
 }
 
-.login-tit {
-    font-weight: bold;
-    padding-top: 10%;
+ul li {
+    list-style: none;
 }
 
+.tit {
 
-.admin {
+}
+
+.tit h1 {
+    position: relative;
+    top: -16px;;
+    display: inline-block;
+}
+
+.tit div {
+    display: inline-block;
+    width: 210px;
+    height: 60px;
+}
+
+.tit div.t-left {
+
     background-color: transparent;
     border: none;
     border-radius: 0;
-    background-image: url('../img/as.png');
+    background-image: url('../img/left.png');
     background-repeat: no-repeat;
     background-size: 100%
 }
 
+.tit div.t-right {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    background-image: url('../img/right.png');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.login-tit {
+
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.admin {
+    border: none;
+    border-radius: 0;
+    background-color: #eeeeee;
+}
+
+.admin-TKey {
+    display: none;
+    margin-bottom: 4rem;
+}
+
 .login-In {
+    margin-top: 20px;
     background-color: #ffd532;
     color: #002718;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .contentBox {
@@ -31,81 +78,88 @@
 .TKey {
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
 }
 
 .admin-input, .admin-addon {
     background: transparent;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid #ffd532;
-    color: #ffd532;
+    border-bottom: 1px solid #b5b5b5;
+    color: #121212;
     height: 50px;
 
 }
 
+.admin-input input {
+    color: #9b9a98;
+}
+
 .admin-addon {
     font-size: 32px;
+
 }
 
 .admin-input-d {
-    padding: 10px 0px;
+    padding: 26px 0px;
     max-width: 320px;
     margin: 0 auto;
+}
+
+.tk-tit{
+    color: #002718;
 }
 
 .verificationCode {
     width: 150px;
     text-align: center;
-    border:none;
+    border: none;
     padding: 10px 0 0 10px;
 }
 
-.vCode{
+.vCode {
     background-color: #ffd532;
 }
 
-.admin-vc{
+.admin-vc {
     width: 170px;
     padding-left: 12px;
 }
 
-.cor::-webkit-input-placeholder{
-    color: #ffd532;
+.cor::-webkit-input-placeholder {
+    color: #9b9a98;
 }
-.use{
+
+.tit-fonCor {
+    color: #f9f8f5;
+}
+
+.use {
     width: 100%;
 }
-    /* VCode  */
 
+/* VCode  */
 
 legend {
     color: #FDFDFD;
 }
+
 fieldset {
     padding: 20px;
-   /* border-radius: 10px;
-    margin-top: 20px;*/
+    /* border-radius: 10px;
+     margin-top: 20px;*/
 }
-/*input {
-    display: inline-block;
-    height: 40px;
-    vertical-align: middle;
-    border: none;
-    border-radius: 10px;
-    border-bottom: #DDDDDD solid 2px;
-    box-shadow: 0 1px 1px #FFFFFF,-1px -1px 1px #000000;
-    -webkit-box-shadow: 0 1px 1px #FFFFFF,-1px -1px 1px #000000;
-    color: #EEEEEE;
-    padding-left: 10px;
-}*/
+
 input[type="button"] {
     background: #cd5c5c;
     padding: 0 40px;
     cursor: pointer;
 }
+
 input[type="button"]:hover {
     background: palevioletred;
 }
+
 .mycode {
     font-size: 20px;
     text-align: center;
@@ -117,13 +171,68 @@ input[type="button"]:hover {
     line-height: 44px;
     display: inline-block;
     vertical-align: middle;
-   /* border-radius: 10px;*/
+    /* border-radius: 10px;*/
 }
+
 .gradient {
     background: -moz-linear-gradient(top, #222222, #333333);
     background: -webkit-linear-gradient(top, #222222, #333333);
     background: -ms-linear-gradient(top, #222222, #333333);
     background: linear-gradient(top, #222222, #333333);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#333333, endColorstr=#333333)";
-+ background : #333333;
++ background: #333333;
+}
+
+/* index */
+
+.entrance {
+    width: 156px;
+    height: 131px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    background-image: url('../img/com.png');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.en-ul {
+    clear: both;
+}
+
+.en-ul li {
+    width: 156px;
+    float: left;
+    margin: 0px 14px;
+}
+
+.en-ul li p {
+    font-size: 16px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.en-ul li a {
+    color: #ffd532;
+    text-decoration: none;
+}
+
+.en-ul li a::hover {
+    text-decoration: none;
+}
+
+.en-ul li a::link {
+    text-decoration: none;
+}
+
+.entrance span {
+    width: 156px;
+    height: 131px;
+    line-height: 131px;
+    font-size: 5rem;
+    color: #6f753c;
+}
+
+.login-panel {
+    margin-top: 10%
 }

@@ -63,7 +63,7 @@ KinerCode.prototype.init = function () {
 
     //为验证码盒子设置样式
     //this.body.style.background = this.opt.randomBg ? this.toRGB().background : this.opt.bg;
-    this.body.style.backgroundColor = '#ffd532';
+    this.body.style.backgroundColor = '#002718';
     this.body.style.backgroundPosition = 'center';
     this.body.style.backgroundSize = 'cover';
     this.body.style.overflow = 'hidden';
