@@ -2,6 +2,94 @@ body {
     font: 16px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
 }
 
+
+
+body.ZC {
+    min-height: 100%;
+    background-color: #002718;
+}
+
+.login-In {
+    margin-top: 20px;
+    background-color: #ffd532;
+    color: #002718;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+body.YD {
+    min-height: 100%;
+    background-color: #36474f;
+}
+body.YD .login-In {
+    background-color: #fd5822;
+    color: #fdffff;
+}
+body.YD .fontsColor{
+    color: #fd1f69;
+
+}
+
+body.WX {
+    min-height: 100%;
+    background-color: #3b3b3b;
+}
+
+body.WX .fontsColor{
+    color: #fe5454;
+}
+body.WX .login-In {
+    background-color: #fe5454;
+    color: #fdffff;
+}
+body.WB {
+    min-height: 100%;
+    background-color: #7d7d7d;
+}
+body.WB .fontsColor{
+
+}
+body.WB .login-In {
+    background-color: #a4c520;
+    color: #fdffff;
+}
+
+body.BD {
+    min-height: 100%;
+    background-color: #564277;
+}
+body.BD .fontsColor{
+    color: #fd1f69;
+}
+body.BD .login-In {
+    background-color: #ff1e6c;
+    color: #fdffff;
+}
+
+body.ZCGR {
+    min-height: 100%;
+    background-color: #32323a;
+}
+body.ZCGR .fontsColor{
+
+}
+body.ZCGR .login-In {
+    background-color: #1fb5ac;
+    color: #fdffff;
+}
+
+body.SJFX {
+    min-height: 100%;
+    background-color: #147a62;
+}
+body.SJFX .fontsColor{
+
+}
+body.SJFX .login-In {
+    background-color: #ff7900;
+    color: #fdffff;
+}
+
 .overallSituationFontsColor {
     color: #ffd532;
 }
@@ -10,8 +98,9 @@ ul li {
     list-style: none;
 }
 
-.tit {
-
+.tit img{
+    margin-top: 8rem;
+    width: 75%;
 }
 
 .tit h1 {
@@ -63,13 +152,7 @@ ul li {
     margin-bottom: 4rem;
 }
 
-.login-In {
-    margin-top: 20px;
-    background-color: #ffd532;
-    color: #002718;
-    font-weight: bold;
-    font-size: 30px;
-}
+
 
 .contentBox {
     min-height: 286px;
@@ -106,7 +189,7 @@ ul li {
     margin: 0 auto;
 }
 
-.tk-tit{
+.tk-tit {
     color: #002718;
 }
 
