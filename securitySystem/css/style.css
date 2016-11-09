@@ -2,8 +2,6 @@ body {
     font: 16px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
 }
 
-
-
 body.ZC {
     min-height: 100%;
     background-color: #002718;
@@ -21,11 +19,13 @@ body.YD {
     min-height: 100%;
     background-color: #36474f;
 }
+
 body.YD .login-In {
     background-color: #fd5822;
     color: #fdffff;
 }
-body.YD .fontsColor{
+
+body.YD .fontsColor {
     color: #fd1f69;
 
 }
@@ -35,20 +35,24 @@ body.WX {
     background-color: #3b3b3b;
 }
 
-body.WX .fontsColor{
+body.WX .fontsColor {
     color: #fe5454;
 }
+
 body.WX .login-In {
     background-color: #fe5454;
     color: #fdffff;
 }
+
 body.WB {
     min-height: 100%;
     background-color: #7d7d7d;
 }
-body.WB .fontsColor{
+
+body.WB .fontsColor {
 
 }
+
 body.WB .login-In {
     background-color: #a4c520;
     color: #fdffff;
@@ -58,9 +62,11 @@ body.BD {
     min-height: 100%;
     background-color: #564277;
 }
-body.BD .fontsColor{
+
+body.BD .fontsColor {
     color: #fd1f69;
 }
+
 body.BD .login-In {
     background-color: #ff1e6c;
     color: #fdffff;
@@ -70,9 +76,11 @@ body.ZCGR {
     min-height: 100%;
     background-color: #32323a;
 }
-body.ZCGR .fontsColor{
+
+body.ZCGR .fontsColor {
 
 }
+
 body.ZCGR .login-In {
     background-color: #1fb5ac;
     color: #fdffff;
@@ -82,9 +90,11 @@ body.SJFX {
     min-height: 100%;
     background-color: #147a62;
 }
-body.SJFX .fontsColor{
+
+body.SJFX .fontsColor {
 
 }
+
 body.SJFX .login-In {
     background-color: #ff7900;
     color: #fdffff;
@@ -98,7 +108,7 @@ ul li {
     list-style: none;
 }
 
-.tit img{
+.tit img {
     margin-top: 8rem;
     width: 75%;
 }
@@ -151,8 +161,6 @@ ul li {
     display: none;
     margin-bottom: 4rem;
 }
-
-
 
 .contentBox {
     min-height: 286px;
@@ -318,4 +326,150 @@ input[type="button"]:hover {
 
 .login-panel {
     margin-top: 10%
+}
+
+/* -- */
+.tit-h img {
+    width: 100%;
+}
+
+.contentBac {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.wrapper-pad {
+    padding: 0 2em;
+}
+
+.nav-icon {
+    display: block;
+
+    text-align: center;
+    background-image: url("../img/com.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 168px;
+    height: 156px;
+}
+
+.nav-icon i {
+    width: 168px;
+    height: 156px;
+    color: #bcbcbb;
+    font-size: 8em;
+}
+
+ul.nav-box {
+    max-width: 200px;
+}
+
+ul.nav-box li {
+    text-align: center;
+    display: inline-block;
+}
+
+p.nav-txt {
+    padding: .6em 0 .8em;
+    font-size: 2rem;
+    color: #ffd532;
+}
+
+.wrapper-content {
+    padding: 0 3em;
+}
+
+.content-right {
+    margin-left: 2em;
+    width: 1520px;
+    height: 880px;
+    background-image: url("../img/bac.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Message {
+    color: #ffd532;
+}
+
+.Message .M-row {
+    height: 80px;
+    line-height: 80px;
+    font-size: 2em;
+    border-bottom: 1px solid #ffd532;
+}
+
+.Message input {
+    min-width: 554px;
+    background: transparent;
+    border: none;
+
+}
+
+.messageBox {
+    padding: 16rem 2em 2em 2em;
+}
+
+.img1 {
+    width: 300px;
+
+}
+
+.img2 {
+    height: 363px;
+    width: 300px;
+    display: none;
+}
+
+.userMessage {
+
+    display: inline-block;
+    display: -webkit-inline-box;
+    width: 150px;
+    font-size: 2rem;
+}
+
+/*
+*/
+
+.imgbox {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgnum {
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgnum input, .imgnum1 input {
+    position: absolute;
+    opacity: 0;
+}
+
+.imgnum input[type=file] {
+    width: 100%;
+    height: 100%;
+}
+
+.btnPreservation {
+    padding-top: 6em;
+}
+
+.btn-pr {
+    height: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #002718;
+    background-color: #ffd532;
+}
+
+table{
+    color: #6e706f;
+    font-size: 2em;
 }
