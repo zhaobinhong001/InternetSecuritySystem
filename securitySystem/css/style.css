@@ -567,3 +567,7 @@ table tr {
     position: absolute;right: 30px;
     text-align: right;
 }
+
+.see .M-row{
+    border-bottom: none;
+}
