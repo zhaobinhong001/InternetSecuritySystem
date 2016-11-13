@@ -2725,7 +2725,7 @@ th {
 }
 
 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
-    padding: 8px;
+    padding: 8px 8px 8px 30px;
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 1px solid #ddd
@@ -5097,9 +5097,11 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .pagination {
-    display: inline-block;
+    position: fixed;
+    bottom: 14px;
+    display:block;
     padding-left: 0;
-    margin: 20px 0;
+    margin: 0 auto;
     border-radius: 4px
 }
 
@@ -5113,10 +5115,10 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     padding: 6px 12px;
     margin-left: -1px;
     line-height: 1.42857143;
-    color: #337ab7;
+    color: #fff;
     text-decoration: none;
-    background-color: #fff;
-    border: 1px solid #ddd
+ /*   background-color: #fff;
+    border: 1px solid #ddd*/
 }
 
 .pagination > li:first-child > a, .pagination > li:first-child > span {
@@ -5132,24 +5134,24 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
 .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
     z-index: 2;
-    color: #23527c;
-    background-color: #eee;
-    border-color: #ddd
+    color: #fff;
+  /*  background-color: #eee;
+    border-color: #ddd*/
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
     z-index: 3;
-    color: #fff;
+    color: #d4a914;
     cursor: default;
-    background-color: #00a1e5;
-    border-color: #00a1e5;
+/*    background-color: #00a1e5;
+    border-color: #00a1e5;*/
 }
 
 .pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
     color: #777;
     cursor: not-allowed;
-    background-color: #fff;
-    border-color: #ddd
+   /* background-color: #fff;
+    border-color: #ddd*/
 }
 
 .pagination-lg > li > a, .pagination-lg > li > span {

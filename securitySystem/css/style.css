@@ -469,7 +469,101 @@ p.nav-txt {
     background-color: #ffd532;
 }
 
-table{
+table {
     color: #6e706f;
     font-size: 2em;
+    margin-top: 3em;
+    border: 2px solid #fff;
+}
+
+table tr {
+
+    width: 100%;
+    height: 58px;
+}
+
+.pagination {
+    position: fixed;
+    display: block;
+    height: 30px;
+    width: 310px;
+    max-width: 310px;
+    font-size: 16px;
+    left: 50%;
+    margin-left: -155px;
+    margin-bottom: 1.4em;
+}
+
+.dis {
+    display: none;
+}
+
+.main-num {
+    min-width: 74px;
+}
+
+.form-Information tr th {
+    text-align: center;
+
+}
+
+#Information-datatable tr td, #Information-datatable tr th {
+    border: 1px solid #fff;;
+}
+
+#Information-datatable > tbody > tr > td, #Information-datatable > tbody > tr > th, #Information-datatable > tfoot > tr > td, #Information-datatable > tfoot > tr > th, #Information-datatable > thead > tr > td, #Information-datatable > thead > tr > th {
+    padding: 8px;
+}
+
+.btn-group {
+    margin-left: -15px;
+    position: absolute;
+    z-index: 11;
+    top: -12px;;
+}
+
+.btn-primary {
+    background-color: #008600;
+    color: #fff;
+    border: #008600;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #008600;
+    border-color: #008600;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #008600;
+    border-color: #008600;
+}
+
+.dele{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    z-index: 11;
+
+}
+
+.dele .btn{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.dele .glyphicon{
+    top: 2px;
+    color: #ffd532;
+}
+
+.user{
+    top: -4em;;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;right: 30px;
+    text-align: right;
 }
