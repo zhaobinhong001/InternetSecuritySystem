@@ -47,7 +47,7 @@ var c = new KinerCode({
     validateObj: submit,//触发验证的对象，若不指定则默认为已绑定的输入框inputArea
     validateEven: "click",//触发验证的方法名，如click，blur等
     validateFn: function (result, code) {//验证回调函数
-        if((getnus().value.length)>=12){
+        if((getnus().value.length)>=11){
             if (result) {
                 console.log('验证成功');
                 window.location.href = "internalInformation.html";

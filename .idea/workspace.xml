@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2343fd6-28ae-4094-ad16-5a960854485e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/editInformation.html" afterPath="$PROJECT_DIR$/securitySystem/editInformation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/newUser.html" afterPath="$PROJECT_DIR$/securitySystem/newUser.html" />
     </list>
     <ignored path="cnpc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="noWiTerMan.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/securitySystem/noWiTerMan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="141" column="75" selection-start-line="141" selection-start-column="75" selection-end-line="141" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="seeInformation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/seeInformation.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,21 +45,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newUser.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newUser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/newUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37761194">
+            <state vertical-scroll-proportion="-7.90625">
               <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/securitySystem/signin.html">
+      <file leaf-file-name="verificationCode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securitySystem/js/verificationCode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.03125">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verifcationCode-config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/securitySystem/js/verifcationCode-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.2948718">
+              <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -481,14 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/js/verificationCode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/securitySystem/js/location-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -509,14 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-59.03125">
           <caret line="516" column="19" selection-start-line="516" selection-start-column="19" selection-end-line="516" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/js/verifcationCode-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -597,8 +579,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/securitySystem/newUser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37761194">
+        <state vertical-scroll-proportion="-7.90625">
           <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/js/verificationCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/js/verifcationCode-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2948718">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding />
         </state>
       </provider>
