@@ -589,4 +589,5 @@ table tr {
     position: relative;
     top: -1.6em;;
     color:  #fff;
+    cursor: pointer;
 }

@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2343fd6-28ae-4094-ad16-5a960854485e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/InCaManagement.html" afterPath="$PROJECT_DIR$/securitySystem/InCaManagement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/css/style.css" afterPath="$PROJECT_DIR$/securitySystem/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/data.html" afterPath="$PROJECT_DIR$/securitySystem/data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/mobileTerMan.html" afterPath="$PROJECT_DIR$/securitySystem/mobileTerMan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html" afterPath="$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/mobileman.html" afterPath="$PROJECT_DIR$/securitySystem/mobileman.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/noWiTerMan.html" afterPath="$PROJECT_DIR$/securitySystem/noWiTerMan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/signin.html" afterPath="$PROJECT_DIR$/securitySystem/signin.html" />
     </list>
     <ignored path="cnpc.iws" />
     <ignored path=".idea/workspace.xml" />
