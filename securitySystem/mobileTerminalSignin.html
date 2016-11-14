@@ -91,6 +91,9 @@
             <!-- TKey -->
             <div class="col-md-6 col-md-offset-3 admin admin-TKey" id="admin-TKey">
 
+                <div class="text-center on-up" id="onUp">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
+                </div>
                 <div class="form-group input-group admin-input-d text-center tk-tit">
                     <span class="TKey-loginL">
                         <img src="img/tklo.png" alt="T-Key快速登录">
@@ -134,9 +137,13 @@
             tKBox.style.display="none";
             TKeyLogin.style.display="block";
         }
+        var onUp=document.getElementById("onUp");
+        onUp.onclick=function(){
+            tKBox.style.display="block";
+            TKeyLogin.style.display="none";
+        }
     }
 </script>
-
 <!-- verificationCode -->
 <script src="js/verificationCode.js"></script>
 <script type="text/javascript" src="js/verifcationCode-config.js"></script>

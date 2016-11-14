@@ -584,3 +584,9 @@ table tr {
 .new-ed {
     color: #ffd532;
 }
+
+.on-up{
+    position: relative;
+    top: -1.6em;;
+    color:  #fff;
+}
