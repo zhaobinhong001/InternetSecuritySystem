@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2343fd6-28ae-4094-ad16-5a960854485e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/securitySystem/js/location-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/securitySystem/js/verifcationCode-config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/InCaManagement.html" afterPath="$PROJECT_DIR$/securitySystem/InCaManagement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/css/style.css" afterPath="$PROJECT_DIR$/securitySystem/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/data.html" afterPath="$PROJECT_DIR$/securitySystem/data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/editInformation.html" afterPath="$PROJECT_DIR$/securitySystem/editInformation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/help.html" afterPath="$PROJECT_DIR$/securitySystem/help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/internalInformation.html" afterPath="$PROJECT_DIR$/securitySystem/internalInformation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/mobileTerMan.html" afterPath="$PROJECT_DIR$/securitySystem/mobileTerMan.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html" afterPath="$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/mobileman.html" afterPath="$PROJECT_DIR$/securitySystem/mobileman.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/newUser.html" afterPath="$PROJECT_DIR$/securitySystem/newUser.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/noWiTerMan.html" afterPath="$PROJECT_DIR$/securitySystem/noWiTerMan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/seeInformation.html" afterPath="$PROJECT_DIR$/securitySystem/seeInformation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/securitySystem/signin.html" afterPath="$PROJECT_DIR$/securitySystem/signin.html" />
     </list>
     <ignored path="cnpc.iws" />
@@ -40,18 +34,8 @@
       <file leaf-file-name="internalInformation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/internalInformation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.4375">
+            <state vertical-scroll-proportion="-59.03125">
               <caret line="516" column="19" selection-start-line="516" selection-start-column="19" selection-end-line="516" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/securitySystem/signin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.59375">
-              <caret line="193" column="64" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -60,8 +44,38 @@
       <file leaf-file-name="noWiTerMan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/noWiTerMan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.59375">
-              <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+            <state vertical-scroll-proportion="-12.21875">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeInformation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securitySystem/seeInformation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.71875">
+              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/securitySystem/signin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62238806">
+              <caret line="141" column="64" selection-start-line="141" selection-start-column="64" selection-end-line="141" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verifcationCode-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/securitySystem/js/verifcationCode-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -70,8 +84,8 @@
       <file leaf-file-name="mobileTerminalSignin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.125">
-              <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+            <state vertical-scroll-proportion="-4.40625">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -80,8 +94,8 @@
       <file leaf-file-name="mobileTerMan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/mobileTerMan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.28125">
-              <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+            <state vertical-scroll-proportion="-6.5625">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -90,8 +104,8 @@
       <file leaf-file-name="mobileman.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/mobileman.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.125">
-              <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+            <state vertical-scroll-proportion="-4.3125">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -100,38 +114,18 @@
       <file leaf-file-name="InCaManagement.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/InCaManagement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.125">
-              <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+            <state vertical-scroll-proportion="-8.625">
+              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/securitySystem/data.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.4375">
-              <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newUser.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newUser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/securitySystem/newUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.034328356">
-              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/securitySystem/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.34375">
-              <caret line="586" column="0" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
+            <state vertical-scroll-proportion="-28.75">
+              <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -155,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.md" />
         <option value="$PROJECT_DIR$/jpage/table.html" />
         <option value="$PROJECT_DIR$/tab/index.html" />
         <option value="$PROJECT_DIR$/jpage/js/jPages.js" />
@@ -199,13 +192,14 @@
         <option value="$PROJECT_DIR$/securitySystem/editInformation.html" />
         <option value="$PROJECT_DIR$/securitySystem/css/style.css" />
         <option value="$PROJECT_DIR$/securitySystem/internalInformation.html" />
-        <option value="$PROJECT_DIR$/securitySystem/signin.html" />
-        <option value="$PROJECT_DIR$/securitySystem/noWiTerMan.html" />
-        <option value="$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html" />
-        <option value="$PROJECT_DIR$/securitySystem/mobileTerMan.html" />
-        <option value="$PROJECT_DIR$/securitySystem/mobileman.html" />
-        <option value="$PROJECT_DIR$/securitySystem/InCaManagement.html" />
         <option value="$PROJECT_DIR$/securitySystem/data.html" />
+        <option value="$PROJECT_DIR$/securitySystem/InCaManagement.html" />
+        <option value="$PROJECT_DIR$/securitySystem/mobileman.html" />
+        <option value="$PROJECT_DIR$/securitySystem/mobileTerMan.html" />
+        <option value="$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html" />
+        <option value="$PROJECT_DIR$/securitySystem/noWiTerMan.html" />
+        <option value="$PROJECT_DIR$/securitySystem/js/verifcationCode-config.js" />
+        <option value="$PROJECT_DIR$/securitySystem/signin.html" />
       </list>
     </option>
   </component>
@@ -409,7 +403,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18440464" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -507,22 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/seeInformation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.03125">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/editInformation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.3125">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/securitySystem/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.34375">
@@ -531,74 +509,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/internalInformation.html">
+    <entry file="file://$PROJECT_DIR$/securitySystem/editInformation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.4375">
-          <caret line="516" column="19" selection-start-line="516" selection-start-column="19" selection-end-line="516" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.59375">
-          <caret line="193" column="64" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/noWiTerMan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.59375">
-          <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.125">
-          <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/mobileTerMan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.28125">
-          <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/mobileman.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.125">
-          <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/securitySystem/InCaManagement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.125">
-          <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+        <state vertical-scroll-proportion="-65.0625">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/securitySystem/data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.4375">
-          <caret line="193" column="64" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
+        <state vertical-scroll-proportion="-13.03125">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/InCaManagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.625">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/internalInformation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-59.03125">
+          <caret line="516" column="19" selection-start-line="516" selection-start-column="19" selection-end-line="516" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/mobileman.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3125">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/mobileTerMan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5625">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/mobileTerminalSignin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.40625">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/securitySystem/newUser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034328356">
-          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        <state vertical-scroll-proportion="-28.75">
+          <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/noWiTerMan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.21875">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/seeInformation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.71875">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/js/verifcationCode-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/securitySystem/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62238806">
+          <caret line="141" column="64" selection-start-line="141" selection-start-column="64" selection-end-line="141" selection-end-column="64" />
           <folding />
         </state>
       </provider>
